@@ -11,43 +11,43 @@ cat /etc/*-release
 
 
 # Información hardware
-Mostrar información sobre la CPU:
+Mostrar información sobre la **CPU**:
 ```bash
 cat /proc/cpuinfo
 ```
 
-Configuración de los puntos de montaje:
+Configuración de los **puntos de montaje**:
 ```bash
 cat /etc/fstab
 ```
 
 # Información sobre usuarios y grupos
-Mostrar fichero de usuarios:
+Mostrar fichero de **usuarios**:
 ```bash
 cat /etc/passwd
 ```
 
-Mostrar fichero de grupos:
+Mostrar fichero de **grupos**:
 ```bash
 cat /etc/group
 ```
 
-Mostrar hashes de contraseñas de usuarios (requiere privilegios):
+Mostrar **hashes de contraseñas** de usuarios (requiere privilegios):
 ```bash
 cat /etc/shadow
 ```
 
-Qué usuario soy:
+Qué **usuario** soy:
 ```bash
 whoami
 ```
 
-Mi uid y mis gid (mi identificador de usuario y el de mis grupos):
+Mi **uid** y mis **gid** (mi identificador de usuario y el de mis grupos):
 ```bash
 id
 ``` 
 
-Qué usuarios hay logueados actualmente:
+Qué **usuarios hay logueados** actualmente:
 ```bash
 finger
 pinky
@@ -59,7 +59,7 @@ Cuando ha accedido cada usuario por última vez:
 lastlog
 ```
 
-¿Qué puedo hacer como sudo?
+¿Qué puedo **hacer como sudo**?
 ```bash
 sudo -l
 ```
@@ -70,12 +70,12 @@ cat /etc/sudoers
 ```
 
 # Software instalado
-Paquetes instalados en distribuciones basadas en Debian
+Paquetes instalados en distribuciones basadas en **Debian**
 ```bash
 dpkg -l
 ```
 
-Paquetes instalados en distribuciones basadas en Red Hat:
+Paquetes instalados en distribuciones basadas en **Red Hat**:
 ```bash
 rpm -qa
 ```
