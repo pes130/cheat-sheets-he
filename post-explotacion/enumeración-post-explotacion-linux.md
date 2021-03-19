@@ -84,3 +84,13 @@ rpm -qa
 
 
 
+
+
+
+# Agradecimientos
+byte-mind.net - https://byte-mind.net/enumeracion-y-escalado-de-privilegios-en-linux/
+
+
+
+
+
