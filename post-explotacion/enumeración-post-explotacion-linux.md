@@ -21,6 +21,13 @@ Configuración de los **puntos de montaje**:
 cat /etc/fstab
 ```
 
+# Servicios locales a la escucha
+Mostrar servicios escuchando en localhost:
+```bash
+ss -l
+```
+
+
 # Información sobre usuarios y grupos
 Mostrar fichero de **usuarios**:
 ```bash
